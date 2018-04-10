@@ -9,7 +9,7 @@ export class RoomService {
   roomList: Room[];
 
   constructor(private database: AngularFireDatabase) {
-    this.rooms = database.list('rooms');
+    this.rooms = database.list('main');
    }
 
    getRooms() {

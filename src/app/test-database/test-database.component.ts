@@ -22,8 +22,8 @@ export class TestDatabaseComponent implements OnInit {
 
   ngOnInit() {
     this.roomService.getRooms().subscribe(rooms=>{
-      this.room = rooms
-      this.room = Array.of(this.room[0])
+      this.room = rooms[0]
+      // this.room = Array.of(this.room)
       console.log(this.room)
     })
   }
