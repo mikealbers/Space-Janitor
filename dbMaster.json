@@ -1,0 +1,281 @@
+{
+  "rooms": [
+    {
+      "name": "Recovery",
+      "id": "030",
+      "scene": [
+        {
+          "text": "All around you is a darkness so complete that it could only make sense to a being that has never known what eyes are. And yet you are aware of everything, and everything is full of wonders. And everything is full of terrors. You awaken to searing light and an unfamiliar voice.'Hey there! I'm Jonesy, and in case you'vr forgotten you're {{player.name}}. You're onboard the ECS Miskatonic heading for ... your new home. You've been in solid stasis for a really long time, and I can tell that you're super dehydrated. There's a water bottle around here somewhere. My helpers on this section of the ship seem to be...missing? Or else I'd get it for you myself.' As Jonsey talks, your dream begins to fade a bit, and you remember yourself to be a beign with legs and feet. You slowly swing these newly remembered apendages off of the recovery bed that you're on and get to the important business of remembering how to stand. 'This is one of the modules where my sensors are acting a little wokny lately. But I'm pretty sure that if you look around yo'll find water.'",
+          "actionOption": [
+            {
+              "option": "Look around the room",
+              "text": "You fight through a disorientation so string that it makes the world feel like jelly,but somehow you manage to find a machine that dispenses water in silver bags. You drink one, vomit immediately, and then drink another. After a few moments you feel a little better.",
+              "log": "wakes up"
+            },
+            {
+              "option": "Ask Jonsey how long you've been in stasis.",
+              "text": "It takes you a second but you eventually remember that there are languages out there and that you know at least one. You manage to assemble the complex question of time and exsistance into sound. 'How long?' Again, Jonsey's reply sems to come after a pause. 'Well, definietly a long time. But you knew that right? If you've found that water I suggest you head to one of the terminals in the staff lounge and I'll explain everything there.'"
+            },
+            {
+              "option": "Move.",
+              "text": "You search around for a door and find one in front of you one to you left and one to your right."
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "An unmarked door in front of you",
+              "text": "you make your way towards the door which opens onto a dark halway.",
+              "log": "has left the recovery room.",
+              "dest": "020"
+            },
+            {
+              "option": "A door marked ICU.",
+              "text": "You try and open the door labeled ICU but it's locked and requires a pass key.",
+              "dest": "032"
+            },
+            {
+              "option": "A door marked Processing",
+              "text": "On the other side of the door is a room made from ceramic tiles. There is little else that you can see here.",
+              "dest": "031"
+            }
+          ]
+        },
+        {
+          "text": "The recovery room is just as you left it. There is the recovery bed that you woke up on, a water dispenser, and doors to the Processing room and the ICU.",
+          "actionOption": [
+            {
+              "option": "drink water",
+              "text": "you drink a bottle of water and feel a little better."
+            },
+            {
+              "option": "Move"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "Leave the recovery room",
+              "text": "you turn around and leave the room.",
+              "dest": "020"
+            },
+            {
+              "option": "Try the ICU Door",
+              "text": "The door is locked and you can't get in without a pass key.",
+              "dest": "032"
+            },
+            {
+              "option": "A door marked Processing",
+              "text": "On the other side of the door is a room made from ceramic tiles. There is little else that you can see here.",
+              "dest": "031"
+            }
+          ]
+        },
+        {
+          "text": "The recovery room is just as you left it. There is the recovery bed that you woke up on, a water dispenser, and doors to the Processing room and the ICU.",
+          "actionOption": [
+            {
+              "option": "drink water",
+              "text": "you drink a bottle of water and feel a little better."
+            },
+            {
+              "option": "Move"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "Leave the recovery room",
+              "text": "you turn around and leave the room.",
+              "dest": "020"
+            },
+            {
+              "option": "Try the ICU Door",
+              "text": "You try the passkey on the door and hear a quiet click as the lock disengages and the door slides open.",
+              "dest": "032"
+            },
+            {
+              "option": "A door marked Processing",
+              "text": "On the other side of the door is a room made from ceramic tiles. There is little else that you can see here.",
+              "dest": "031"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hallway1",
+      "id": "020",
+      "scene": [
+        {
+          "text": "The hallway is about fifty feet, dimly lit, and vaguely familiar. You think you might have been down it before. At one end is an elevator and at the other is the recovery room. There are doors on both side. To your immediate right and left are doors marked Medical Staff Only, and Storage.",
+          "moveOption": [
+            {
+              "option": "Head towards the elevator.",
+              "text": "You head down the hallway.",
+              "dest": "010"
+            },
+            {
+              "option": "Try the Medical Staff Office door.",
+              "text": "You open the door to the Staff Office",
+              "dest": "022"
+            },
+            {
+              "option": "Try the Storage Room door.",
+              "text": "You try to open the storage room door only to find that it's locked and requires a passkey.",
+              "dest": "021"
+            },
+            {
+              "option": "Enter the recovery room.",
+              "text": "You push open the door to the recovery room.",
+              "dest": "030"
+            }
+          ]
+        },
+        {
+          "text": "Now that the lights are brighter you begin to remember to the this hallway more clearly. You came down this hall, so very long ago to be put into hard stasis for the trip away from Earth. At one end is an elevator and at the other is the recovery room. There are doors on both side. To your immediate right and left are doors marked Medical Staff Only, and Storage.",
+          "moveOption": [
+            {
+              "option": "Head towards the elevator.",
+              "text": "You head down the hallway.",
+              "dest": "010"
+            },
+            {
+              "option": "Try the Medical Staff Office door.",
+              "text": "You think this is the room that the ship's AI...Jonsey?...told you to go to. You open the door and enter the Staff Office.",
+              "dest": "022"
+            },
+            {
+              "option": "Try the Storage Room door.",
+              "text": "You try to open the storage room door only to find that it's locked and requires a passkey.",
+              "dest": "021"
+            },
+            {
+              "option": "Enter the recovery room.",
+              "text": "You push open the door to the recovery room.",
+              "dest": "030"
+            }
+          ]
+        },
+        {
+          "text": "Now that the lights are brighter you begin to remember to the this hallway more clearly. You came down this hall, so very long ago to be put into hard stasis for the trip away from Earth. At one end is an elevator and at the other is the recovery room. There are doors on both side. To your immediate right and left are doors marked Medical Staff Only, and Storage.",
+          "moveOption": [
+            {
+              "option": "Head towards the elevator.",
+              "text": "You head down the hallway.",
+              "dest": "010"
+            },
+            {
+              "option": "Try the Medical Staff Office door.",
+              "text": "You open the door to the Staff Office.",
+              "dest": "022"
+            },
+            {
+              "option": "Try the Storage Room door.",
+              "text": "You use the passkey on the door and it clicks open..",
+              "dest": "021"
+            },
+            {
+              "option": "Enter the recovery room.",
+              "text": "You push open the door to the recovery room.",
+              "dest": "030"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hallway2",
+      "id": "010",
+      "scene": [
+        {
+          "text": "The hallway is about fifty feet, dimly lit, and vaguely familiar. At one end is an elevator and at the other is the recovery room. There are doors on both side. To your immediate right and left are doors marked Staff Quarters, and Colonist Barracks.",
+          "moveOption": [
+            {
+              "option": "Enter the elevator.",
+              "text": "You key the elevator button and you wait as it rises up towards your floor. A sense of deep unease accompanies the unbidden thought 'Nobody has left this floor since the Miskatonic launched. Why is the elevator at the bottom of the shaft?' Finaly the door opens and you step inside.",
+              "dest": "000"
+            },
+            {
+              "option": "Enter the staff quarters.",
+              "text": "The door opens but something inside the mechanism is clearly off balance. It makes a scraping sound as it slides out of the way. You enter the staff quarters.",
+              "dest": "012"
+            },
+            {
+              "option": "Enter the Colonist Barracks.",
+              "text": "The door to the barracks opens and you enter.",
+              "dest": "011"
+            },
+            {
+              "option": "Head towards the recovery room.",
+              "text": "You head down the hallway.",
+              "dest": "202"
+            }
+          ]
+        },
+        {
+          "text": "The hallway is about fifty feet, dimly lit, and vaguely familiar. At one end is an elevator and at the other is the recovery room. There are doors on both side. To your immediate right and left are doors marked Staff Quarters, and Colonist Barracks.",
+          "moveOption": [
+            {
+              "option": "Take the elevator.",
+              "text": "You enter the elevator.",
+              "dest": "000"
+            },
+            {
+              "option": "Enter the staff quarters.",
+              "text": "The door opens but something inside the mechanism is clearly off balance. It makes a scraping sound as it slides out of the way. You enter the staff quarters.",
+              "dest": "012"
+            },
+            {
+              "option": "Enter the Colonist Barracks.",
+              "text": "The door to the barracks opens and you enter.",
+              "dest": "011"
+            },
+            {
+              "option": "Head towards the recovery room.",
+              "text": "You head down the hallway.",
+              "dest": "202"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "id": "000",
+      "scene": [
+        {
+          "text": "The elevator runs down through the module of the ship that you are in towards the central spire. At the other end of the hallway from you is the recovery room.",
+          "moveOption": [
+            {
+              "option": "press the button labeled Concourse Level.",
+              "text": "You press the press button for the concourse level and your fingers coma away from the touch pad with fine layer of dust on them."
+            },
+            {
+              "option": "press the button labeled Arboretum.",
+              "text": "You press the press button for the Arboretum and your fingers coma away from the touch pad with fine layer of dust on them."
+            },
+            {
+              "option": "Leave the elevator",
+              "text": "You step off the elevator."
+            }
+          ]
+        },
+        {
+          "text": "The elevator runs down through the module of the ship that you are in towards the central spire. At the other end of the hallway from you is the recovery room.",
+          "moveOption": [
+            {
+              "option": "press the button labeled Concourse Level.",
+              "text": "You press the press button for the concourse level."
+            },
+            {
+              "option": "press the button labeled Arboretum.",
+              "text": "You press the press button for the Arboretum."
+            },
+            {
+              "option": "leave the elevator",
+              "text": "You step off the elevator."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
