@@ -446,20 +446,20 @@
           "text": "As you open the door you hear Jonsey's voice 'Are you here yet?...Are you here now?...all of my sensors are down on this level so I can't see you, so you should say something when you get here...Are you here yet?' 'I'm going to die aren't I,' you say to yourself as you step into the ten-by-ten cube designed to function as a shared office space for the medical staffers whose once and future jobs revolve around the 'freezing' and 'thawing' of the hundreds of colonists in this module of the ECS Miskatonic. Apparently you said this outloud because Jonsey promptly replies 'Oh no...well I mean...No. Definitely probably not. I just need some help with some light janitorial work is all. Oh and If you could tell me what happend to all of the service-bots that...well I'm sure they're just stuck somewhere. In a corner or...in another place like a corner where...you know...what was I saying?' You are honsetly unclear on this subject and so say nothing. Undetered the AI plunges forward. 'So yeah...SPAAAACE JAAAANITORRR!' it intones with a surprizingly unwelcome doppler of gravitas. 'There's never been one of those as far as I remember. So I brought you in here because there should still be a functioning terminal that can answer your questions about...important stuff questions I'm sure you have. And where the broom closet is.' 'Yup' you think, this time definietly to yourself, 'I'm soo dead.' You look around the room and find there is indeed a terminal against the wall. You blow dust off of it, and just as you're begining to ask youself if there should even be dust on a ship like this, the screen lights up and you have access to the Miskatonic's general information library.",
           "actionOption": [
             {
-              "option": "Look up ",
-              "text": "XXX",
+              "option": "Open Database",
+              "text": "Eschewing Jonsey's offer to find the nearest mop bucket, you scan through the ship's general information database, hoping that something familiar will help you sort out the fog in you mind. You re-learn that you have spent the intervening years in a 'smart-material' that becomes a diamond-hard solid when an electric current at a spcific voltage is passed through it, and then reverts to a runny plasma when another such current is applied. That this material comes originally from monk-fish mucus is just an added bonus. You also learn that the intense itching that you've just become aware of, is from the stasis-maintanence and life-support monitors that were litteraly wired into your autonomic nervous system. The life support monitor is still a small thumbnail sized hardness under the skin above your heart, but unzipping the blue onesie that you think you remember putting on, you find that the module responsile for keeping you alive in stasis is no longer there. 'They can put that back?' you think. You're reminded that the Earth Colony Ship Miskatonic is one of two colony ships that were sent out from Earth after the 'phenomenon' or the 'incursion' or as you now rememebr you liked to call it, the 'bunch of incomprehensible nightmare monsters from another dimension' showed up and began slowly spreading across the globe. And that the Miskatonic is a little over a mile long, carries 100,000 souls all frozen in electrified fish snot, that it's crusing speed is one-tenth the speed of light, and that while at cruise the ship has enough power to maintain itself and it's functions for thousands of years, the failure rate of the stasis goo increases exponentially after a fraction of that time.",
               "log": "XXX",
               "change": "XXX"
             },
             {
-              "option": "Research This other thing I'll write up later.",
+              "option": "Open ECS Miskatonic Logs",
               "text": "XXX",
               "log": "XXX",
               "change": "XXX"
             },
             {
               "option": "Move",
-              "text": "XXX",
+              "text": "Leave",
               "log": "XXX",
               "change": "XXX"
             }
@@ -470,7 +470,7 @@
               "text": "XXX",
               "log": "XXX",
               "dest": "020",
-              "change": "XXX"
+              "change": ["022","1"]
             }
           ]
         },
@@ -1028,7 +1028,7 @@
       ]
     },
     {
-      "name": "West Maintenance Shaft",
+      "name": "East Maintenance Shaft",
       "id": "001",
       "scene": [
         {
@@ -1578,7 +1578,7 @@
     },
     {
       "name": "Concourse Hallway 3",
-      "id": "XXX",
+      "id": "130",
       "scene": [
         {
           "text": "XXX",
@@ -1710,7 +1710,7 @@
     },
     {
       "name": "West Maintenance Shaft",
-      "id": "XXX",
+      "id": "102",
       "scene": [
         {
           "text": "XXX",
@@ -3520,5 +3520,40 @@
         }
       ]
     }
-  ]
+  ],
+
+  "scenes": {
+    "000" : 0,
+    "001" : 0,
+    "002" : 0,
+    "010" : 0,
+    "011" : 0,
+    "012" : 0,
+    "020" : 0,
+    "021" : 0,
+    "022" : 0,
+    "030" : 0,
+    "031" : 0,
+    "032" : 0,
+    "100" : 0,
+    "101" : 0,
+    "102" : 0,
+    "110" : 0,
+    "111" : 0,
+    "112" : 0,
+    "120" : 0,
+    "121" : 0,
+    "122" : 0,
+    "130" : 0,
+    "131" : 0,
+    "132" : 0,
+    "200" : 0,
+    "201" : 0,
+    "202" : 0,
+    "210" : 0,
+    "211" : 0,
+    "212" : 0,
+    "220" : 0
+  }
+
 }
