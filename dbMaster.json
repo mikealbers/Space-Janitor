@@ -29,7 +29,7 @@
               "text": "you make your way towards the door which opens onto a dark halway.",
               "log": "is in the med-bay hallway.",
               "dest": "020",
-              "change": "030,1"
+              "change": ["030","1"]
             },
             {
               "option": "A door marked ICU.",
@@ -184,7 +184,7 @@
               "text": "You think this is the room that the ship's AI...Jonsey?...told you to go to. You open the door and enter the Staff Office.",
               "log": "has entered the Staff Office.",
               "dest": "022",
-              "change": "020,1"
+              "change": ["020","1"]
             },
             {
               "option": "Try the Storage Room door.",
@@ -198,7 +198,7 @@
               "text": "You push open the door to the recovery room.",
               "log": "has entered the recovery room",
               "dest": "030",
-              "change": "020,1"
+              "change": ["020","1"]
             }
           ]
         },
@@ -282,7 +282,7 @@
               "text": "You key the elevator button and you wait as it rises up towards your floor. A sense of deep unease accompanies the unbidden thought 'Nobody has left this floor since the Miskatonic launched. Why is the elevator at the bottom of the shaft?' Finaly the door opens and you step inside.",
               "log": "enters the elevator on med-bay level.",
               "dest": "000",
-              "change": "101,1"
+              "change": ["101","1"]
             },
             {
               "option": "Enter the staff quarters.",
@@ -354,14 +354,14 @@
               "text": "You press the press button for the concourse level and your fingers coma away from the touch pad with fine layer of dust on them.",
               "log": "enters the concourse level",
               "dest": "100",
-              "change": "000,1"
+              "change": ["000","1"]
             },
             {
               "option": "press the button labeled Arboretum.",
               "text": "You press the press button for the Arboretum and your fingers coma away from the touch pad with fine layer of dust on them.",
               "log": "enter the Arboretum.",
               "dest": "200",
-              "change": "000,1"
+              "change": ["000","1"]
             },
             {
               "option": "Leave the elevator",
@@ -432,7 +432,7 @@
               "text": "As you flee, you notice that the door mechanism was broken on the inside of the room. The emergency panel opened and mangled. There was no way out of this room if the door was closed. And it was by design. Back in the recovery room, you spare no time making sure that the same holds true for this side of the door as well.",
               "log": "has entered the recovery room.",
               "dest": "030",
-              "change": "030, 3"
+              "change": ["030","3"]
             }
           ]
         }
