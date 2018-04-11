@@ -1,5 +1,5 @@
 {
-  "rooms": [
+    "rooms": [
     {
       "name": "Recovery",
       "id": "030",
@@ -9,12 +9,12 @@
           "actionOption": [
             {
               "option": "Look around the room",
-              "text": "You fight through a disorientation so string that it makes the world feel like jelly,but somehow you manage to find a machine that dispenses water in silver bags. You drink one, vomit immediately, and then drink another. After a few moments you feel a little better.",
+              "text": "You fight through a disorientation so strong that it makes the world feel like jelly,but somehow you manage to find a machine that dispenses water in silver bags. You drink one, vomit immediately, and then drink another. After a few moments you feel a little better.",
               "log": "wakes up"
             },
             {
               "option": "Ask Jonsey how long you've been in stasis.",
-              "text": "It takes you a second but you eventually remember that there are languages out there and that you know at least one. You manage to assemble the complex question of time and exsistance into sound. 'How long?' Again, Jonsey's reply sems to come after a pause. 'Well, definietly a long time. But you knew that right? If you've found that water I suggest you head to one of the terminals in the staff lounge and I'll explain everything there.'"
+              "text": "It takes you a second but you eventually remember that there are languages out there and that you know at least one. You manage to assemble the complex question of time and exsistance into sound. 'How long?' Again, Jonsey's reply seems to come after a pause. 'Well, definietly a long time. But you knew that right? If you've found that water I suggest you head to one of the terminals in the staff lounge and I'll explain everything there.'"
             },
             {
               "option": "Move.",
@@ -25,18 +25,20 @@
             {
               "option": "An unmarked door in front of you",
               "text": "you make your way towards the door which opens onto a dark halway.",
-              "log": "has left the recovery room.",
+              "log": "is in the med-bay hallway.",
               "dest": "020"
             },
             {
               "option": "A door marked ICU.",
               "text": "You try and open the door labeled ICU but it's locked and requires a pass key.",
-              "dest": "032"
+              "dest": "032",
+              "log": "XXX"
             },
             {
               "option": "A door marked Processing",
               "text": "On the other side of the door is a room made from ceramic tiles. There is little else that you can see here.",
-              "dest": "031"
+              "dest": "031",
+              "log": "XXX"
             }
           ]
         },
@@ -48,14 +50,20 @@
               "text": "you drink a bottle of water and feel a little better."
             },
             {
-              "option": "Move"
+              "option": "XXX",
+              "text": "XXX"
+            },
+            {
+              "option": "Move",
+              "text": "You look around for somewhere to go."
             }
           ],
           "moveOption": [
             {
               "option": "Leave the recovery room",
               "text": "you turn around and leave the room.",
-              "dest": "020"
+              "dest": "020",
+              "log": "is in the med-bay hallway."
             },
             {
               "option": "Try the ICU Door",
@@ -65,7 +73,8 @@
             {
               "option": "A door marked Processing",
               "text": "On the other side of the door is a room made from ceramic tiles. There is little else that you can see here.",
-              "dest": "031"
+              "dest": "031",
+              "log": "XXX"
             }
           ]
         },
@@ -84,17 +93,46 @@
             {
               "option": "Leave the recovery room",
               "text": "you turn around and leave the room.",
-              "dest": "020"
+              "dest": "020",
+              "log": "is in the med-bay hallway."
             },
             {
               "option": "Try the ICU Door",
               "text": "You try the passkey on the door and hear a quiet click as the lock disengages and the door slides open.",
-              "dest": "032"
+              "dest": "032",
+              "log": "has entered the ICU"
             },
             {
               "option": "A door marked Processing",
               "text": "On the other side of the door is a room made from ceramic tiles. There is little else that you can see here.",
-              "dest": "031"
+              "dest": "031",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "You see the recovery bed that you woke up on, a water dispenser, and door to the Processing room. The panel to the ICU is smashed beyond repair.",
+          "actionOption": [
+            {
+              "option": "drink water",
+              "text": "you drink a bottle of water and feel a little better."
+            },
+            {
+              "option": "Move"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "Leave the recovery room",
+              "text": "you turn around and leave the room.",
+              "dest": "020",
+              "log": "is in the med-bay hallway."
+            },
+            {
+              "option": "A door marked Processing",
+              "text": "On the other side of the door is a room made from ceramic tiles. There is little else that you can see here.",
+              "dest": "031",
+              "log": "XXX"
             }
           ]
         }
@@ -114,18 +152,21 @@
             },
             {
               "option": "Try the Medical Staff Office door.",
-              "text": "You open the door to the Staff Office",
-              "dest": "022"
+              "text": "You think this is the room that the ship's AI...Jonsey?...told you to go to. You open the door and enter the Staff Office.",
+              "dest": "022",
+              "log": "has entered the Staff Office."
             },
             {
               "option": "Try the Storage Room door.",
               "text": "You try to open the storage room door only to find that it's locked and requires a passkey.",
-              "dest": "021"
+              "dest": "021",
+              "log": "XXX"
             },
             {
               "option": "Enter the recovery room.",
               "text": "You push open the door to the recovery room.",
-              "dest": "030"
+              "dest": "030",
+              "log": "has entered the recovery room"
             }
           ]
         },
@@ -135,22 +176,26 @@
             {
               "option": "Head towards the elevator.",
               "text": "You head down the hallway.",
-              "dest": "010"
+              "dest": "010",
+              "log": "XXX"
             },
             {
               "option": "Try the Medical Staff Office door.",
-              "text": "You think this is the room that the ship's AI...Jonsey?...told you to go to. You open the door and enter the Staff Office.",
-              "dest": "022"
+              "text": "You open the door to the Staff Office",
+              "dest": "022",
+              "log": "enters the medical office."
             },
             {
               "option": "Try the Storage Room door.",
               "text": "You try to open the storage room door only to find that it's locked and requires a passkey.",
-              "dest": "021"
+              "dest": "021",
+              "log": "XXX"
             },
             {
               "option": "Enter the recovery room.",
               "text": "You push open the door to the recovery room.",
-              "dest": "030"
+              "dest": "030",
+              "log": "enters the recover room"
             }
           ]
         },
@@ -165,17 +210,20 @@
             {
               "option": "Try the Medical Staff Office door.",
               "text": "You open the door to the Staff Office.",
-              "dest": "022"
+              "dest": "022",
+              "log": "enters the medical office"
             },
             {
               "option": "Try the Storage Room door.",
               "text": "You use the passkey on the door and it clicks open..",
-              "dest": "021"
+              "dest": "021",
+              "log": "enters the storage room"
             },
             {
               "option": "Enter the recovery room.",
               "text": "You push open the door to the recovery room.",
-              "dest": "030"
+              "dest": "030",
+              "log": "enters the recovery room"
             }
           ]
         }
@@ -191,22 +239,26 @@
             {
               "option": "Enter the elevator.",
               "text": "You key the elevator button and you wait as it rises up towards your floor. A sense of deep unease accompanies the unbidden thought 'Nobody has left this floor since the Miskatonic launched. Why is the elevator at the bottom of the shaft?' Finaly the door opens and you step inside.",
-              "dest": "000"
+              "dest": "000",
+              "log": "enters the elevator on med-bay level."
             },
             {
               "option": "Enter the staff quarters.",
               "text": "The door opens but something inside the mechanism is clearly off balance. It makes a scraping sound as it slides out of the way. You enter the staff quarters.",
-              "dest": "012"
+              "dest": "012",
+              "log": "enters the staff quarters"
             },
             {
               "option": "Enter the Colonist Barracks.",
               "text": "The door to the barracks opens and you enter.",
-              "dest": "011"
+              "dest": "011",
+              "log": "enters the barracks"
             },
             {
               "option": "Head towards the recovery room.",
               "text": "You head down the hallway.",
-              "dest": "202"
+              "dest": "202",
+              "log": "XXX"
             }
           ]
         },
@@ -216,22 +268,26 @@
             {
               "option": "Take the elevator.",
               "text": "You enter the elevator.",
-              "dest": "000"
+              "dest": "000",
+              "log": "enters the elevator on med-bay level."
             },
             {
               "option": "Enter the staff quarters.",
               "text": "The door opens but something inside the mechanism is clearly off balance. It makes a scraping sound as it slides out of the way. You enter the staff quarters.",
-              "dest": "012"
+              "dest": "012",
+              "log": "enters the staff quarters."
             },
             {
               "option": "Enter the Colonist Barracks.",
               "text": "The door to the barracks opens and you enter.",
-              "dest": "011"
+              "dest": "011",
+              "log": "enters the barracks."
             },
             {
               "option": "Head towards the recovery room.",
               "text": "You head down the hallway.",
-              "dest": "202"
+              "dest": "202",
+              "log": "XXX"
             }
           ]
         }
@@ -246,15 +302,21 @@
           "moveOption": [
             {
               "option": "press the button labeled Concourse Level.",
-              "text": "You press the press button for the concourse level and your fingers coma away from the touch pad with fine layer of dust on them."
+              "text": "You press the press button for the concourse level and your fingers coma away from the touch pad with fine layer of dust on them.",
+              "dest": "100",
+              "log": "enters the concourse level"
             },
             {
               "option": "press the button labeled Arboretum.",
-              "text": "You press the press button for the Arboretum and your fingers coma away from the touch pad with fine layer of dust on them."
+              "text": "You press the press button for the Arboretum and your fingers coma away from the touch pad with fine layer of dust on them.",
+              "dest": "200",
+              "log": "enter the Arboretum."
             },
             {
               "option": "Leave the elevator",
-              "text": "You step off the elevator."
+              "text": "You step off the elevator.",
+              "dest": "000",
+              "log": "enters the med-bay hallway."
             }
           ]
         },
@@ -263,15 +325,2771 @@
           "moveOption": [
             {
               "option": "press the button labeled Concourse Level.",
-              "text": "You press the press button for the concourse level."
+              "text": "You press the press button for the concourse level.",
+              "dest": "100",
+              "log": "enters the concourse level"
             },
             {
               "option": "press the button labeled Arboretum.",
-              "text": "You press the press button for the Arboretum."
+              "text": "You press the press button for the Arboretum.",
+              "dest": "200",
+              "log": "enter the Arboretum."
             },
             {
               "option": "leave the elevator",
-              "text": "You step off the elevator."
+              "text": "You step off the elevator.",
+              "dest": "000",
+              "log": "enters the med-bay hallway."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ICU",
+      "id": "032",
+      "scene": [
+        {
+          "text": "The opening of the door automatically triggers the room lights. Electricity flows slowly through long empty capacitors, into the rooms LEDs creating a vulgar synchronisty between the opening of the door, the rising of the lights, the instesity of the smell, and the power of the scene beyond the threshold. There are bodies here. Bodies where no such thing should be possible. Two are dried piles of bones and dust and the tattered remnants of uniforms, centuries old. The other two are not. The most obvious lies in a pool of it's own blood and innards and what appears to be gallons of water, in the middle of the room. Everything from the belly down to the lower left hip missing along a perfect oblique axis. The missing half nowhere in evidence. But it is the other corpse, instinct tells you, and not this poor thing, that is responsible for the walls. It lies there, (He? She?) face stove in, in a  near-perfect wedge. Blood down it's front, on it's hands and around the cuffs of it's uniform, but nowhere else. The blood-less shilouetes of a pair of hands grasping the sides of a metal cabinet make you sure that death was self-inflicted, and terrible. But it was a sort of kindness. Capless dry-erase pens are littered around the floor, flung aside when they couldn't keep up with...You remember just enough physics to pick out of the madness one tortured equation that seems to try to describe a perfect void falling into another perfect void. Looking at it you have a moment of seeing everything without eyes, and then you can't be in here any more. ",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "Move",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "Get out!",
+              "text": "As you flee, you notice that the door mechanism was broken on the inside of the room. The emergency panel opened and mangled. There was no way out of this room if the door was closed. And it was by design. Back in the recovery room, you spare no time making sure that the same holds true for this side of the door as well.",
+              "log": "has entered the recovery room.",
+              "dest": "030"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Staff Office",
+      "id": "022",
+      "scene": [
+        {
+          "text": "As you open the door you hear Jonsey's voice 'Are you here yet?...Are you here now?...all of my sensors are down on this level so I can't see you, so you should say something when you get here...Are you here yet?' 'I'm going to die aren't I,' you say to yourself as you step into the ten-by-ten cube designed to function as a shared office space for the medical staffers whose once and future jobs revolve around the 'freezing' and 'thawing' of the hundreds of colonists in this module of the ECS Miskatonic. Apparently you said this outloud because Jonsey promptly replies 'Oh no...well I mean...No. Definitely probably not. I just need some help with some light janitorial work is all. Oh and If you tell me what happend to all of the service-bots that...well I'm sure they're just stuck somewhere. In a corner or...in another place like a corner where...you know...what was I saying?' You are honsetly unclear on this subject and so say nothing. Undetered the AI plunges forward. 'So yeah...SPAAAACE JAAAANITORRR!' it intones with a surprizingly unwelcome doppler of gravitas. 'There's never been one of those as far as I remember. So I brought you in here because there should still be a functioning terminal that can answer your questions about...important stuff questions I'm sure you have. And where the broom closet is.' 'Yup' you think, this time definietly to yourself, 'I'm soo dead.' You look around the room and find there is indeed a terminal against the wall. You blow dust off of it, and just as you're begining to ask youself if there should even be dust on a ship like this, the screen lights up and you have access to the Miskatonic's general information library.",
+          "actionOption": [
+            {
+              "option": "Research This Thing",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "Research This other thing I'll write up later.",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "Move",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "Leave the room.",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "020"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "020",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "020",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Staff Quarters",
+      "id": "012",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "010"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "010",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "010",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "West Maintenance Shaft",
+      "id": "002",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "012",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "102",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "012",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "102",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "012",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "102",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Processing",
+      "id": "031",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "030"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "030",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "030",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Storage",
+      "id": "021",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "020"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "020",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "020",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Colonist Barracks",
+      "id": "011",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "010"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "001",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "010",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "001",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "010",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "001",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "West Maintenance Shaft",
+      "id": "001",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "011"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "101",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "011",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "101",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "011",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "101",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator Concourse Level",
+      "id": "100",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "110"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "000",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "200",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "110",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "000",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "100",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "110",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "000",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "200",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Concourse Hallway 1",
+      "id": "110",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "100"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "112",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "111",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "120",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "100"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "112",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "111",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "120",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "100"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "112",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "111",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "120",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Concourse Hallway2",
+      "id": "120",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "110"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "130",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "122",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "121",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "110"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "130",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "122",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "121",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "110"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "130",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "122",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "121",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Concourse Hallway 3",
+      "id": "XXX",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "131"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "132",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "120",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "131"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "132",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "120",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "131"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "132",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "120",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "West Maintenance Shaft",
+      "id": "XXX",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "202"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "002",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "112",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "202"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "002",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "112",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "202"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "002",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "112",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lab",
+      "id": "112",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "110"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "102",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "122",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "110"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "102",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "122",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "110"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "102",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "122",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Concourse Hallway 4",
+      "id": "122",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "132"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "120",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "112",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "132"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "120",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "112",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "132"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "120",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "112",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gym",
+      "id": "132",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "122"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "130",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "122"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "130",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "122"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "130",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "East Maintenence Shaft",
+      "id": "101",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "111"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "001",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "201",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "111"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "001",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "201",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "111"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "001",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "201",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lounge",
+      "id": "111",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "101"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "110",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "121",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "101"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "110",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "121",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "101"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "110",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "121",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Concourse Hallway 5",
+      "id": "121",
+      "text": "XXX",
+      "scene": [
+        {
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "131"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "120",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "111",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "131"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "120",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "111",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "131"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "120",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "111",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Commissary",
+      "id": "131",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "121"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "130",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "121"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "130",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "121"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "130",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arboretum Elevator",
+      "id": "200",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "100"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "210",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "100"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "210",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "100"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "210",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arboretum",
+      "id": "201",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "220"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "200",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "212",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "211",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "220"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "200",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "212",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "211",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "220"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "200",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "212",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "211",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pond",
+      "id": "220",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "210"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "210"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "210"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "West Maintenance Shaft",
+      "id": "202",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "212"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "102",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "212"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "102",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "212"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "102",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gardening Shed",
+      "id": "212",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "210"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "202",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "210"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "202",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "210"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "202",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "East Maintenance Shaft",
+      "id": "201",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "211"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "201",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "211"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "201",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "201",
+              "log": "XXX"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Water Filtration",
+      "id": "211",
+      "scene": [
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "201"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "210",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "201"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "210",
+              "log": "XXX"
+            }
+          ]
+        },
+        {
+          "text": "XXX",
+          "actionOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX"
+            }
+          ],
+          "moveOption": [
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "log": "XXX",
+              "dest": "201"
+            },
+            {
+              "option": "XXX",
+              "text": "XXX",
+              "dest": "210",
+              "log": "XXX"
             }
           ]
         }
