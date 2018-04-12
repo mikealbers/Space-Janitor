@@ -17,10 +17,5 @@ export class RoomService {
      return this.rooms;
    }
 
-   getScenes(){
-     return this.scenes;
-     console.log(scenes[0])
-   }
-
 
 }
