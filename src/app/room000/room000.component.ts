@@ -9,11 +9,13 @@ import { RoomService } from '../services/room.service';
   providers: [RoomService]
 })
 export class Room000Component implements OnInit {
+scenes;
 
+  constructor(private roomService: RoomService) { }
 
-  constructor() { }
-
-  ngOnInit() {
+  ngOnInit(
+    scenes = this.roomService.getScenes()
+  ) {
 
   }
 
