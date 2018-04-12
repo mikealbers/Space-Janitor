@@ -12,26 +12,6 @@ import { Router } from '@angular/router';
   providers: [RoomService]
 })
 export class Room000Component implements OnInit {
-  roomId: string;
-  roomToDisplay;
-  rooms;
-  move = false;
-
-  constructor(
-    private router: Router,
-    private route: ActivatedRoute,
-    private location: Location,
-    private roomService : RoomService
-  ) { }
-
-  ngOnInit() {
-    this.rooms = this.roomService.getRooms();
-      this.route.params.forEach((urlParameters) => {
-        this.roomId = urlParameters['dest'];
-        console.log("roomID", this.roomId)
-    });
-    this.setRoomToDisplay();
-  }
 
   changeRoom(option){
     console.log("dest",this.roomToDisplay.scene[0].moveOption[option].dest);

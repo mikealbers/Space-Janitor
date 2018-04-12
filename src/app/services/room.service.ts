@@ -9,11 +9,13 @@ export class RoomService {
   roomList: Room[];
 
   constructor(private database: AngularFireDatabase) {
-    this.rooms = database.list('rooms');
+    this.rooms = database.list('main');
+    this.scenes = database.list('scenes');
    }
 
    getRooms() {
      return this.rooms;
    }
+
 
 }
