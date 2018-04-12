@@ -12,7 +12,7 @@
         "change" : [ "030", "2" ],
         "log" : "XXX",
         "option" : "Ask Jonsey how long you've been in stasis.",
-        "text" : "It takes you a second but you eventually remember that there are languages out there and that you know at least one. You manage to assemble the complex question of time and exsistance into sound. 'How long?' Again, Jonsey's reply seems to come after a pause. 'Well, definietly a long time. But you knew that right? If you've found that water I suggest you head to one of the terminals in the staff lounge and I'll explain everything there.'"
+        "text" : "It takes you a second but you eventually remember that there are languages out there and that you know at least one. You manage to assemble the complex question of time and exsistance into sound. 'How long?' Again, Jonsey's reply seems to come after a pause. 'Well, definietly a long time. But you knew that right? If you've found that water I suggest you head to one of the terminals in the medical office and I'll explain everything there.'"
       }, {
         "change" : "XXX",
         "log" : "XXX",
@@ -189,7 +189,7 @@
         "option" : "Enter the recovery room.",
         "text" : "You push open the door to the recovery room."
       } ],
-      "text" : "Now that you've had a moment you begin to remember to the this hallway more clearly. You came down this hall, so very long ago to be put into hard stasis for the trip away from Earth. At one end is an elevator and at the other is the recovery room. There are doors on both side. To your immediate right and left are doors marked Medical Staff Only, and Storage."
+      "text" : "Now that you've had a moment you begin to remember this hallway more clearly. You came down this hall, so very long ago to be put into hard stasis for the trip away from Earth. At one end is an elevator and at the other is the recovery room. There are doors on both side. To your immediate right and left are doors marked Medical Staff Only, and Storage."
     }, {
       "moveOption" : [ {
         "change" : "XXX",
@@ -430,58 +430,58 @@
     "id": "012",
     "scene": [
       {
-        "text": "As the door opens you get a whiff of a sort of staleness that is entirely out of place here beacause of it's familiarity. It's the stale of people, of sweat and toe jam and food crumbs and all of the concominant bacteria associated there with. It's faint, but it really shouldn't be here, you think. The other side of the door is revealed to be a dormitory of sorts. Individual rooms, eight in all, more like monastic cells than anything else. The smell gets a stronger as you step in the room, and for the first time you wonder if there are mops in space",
+        "text": "As the door fights it's way open you get a whiff of a sort of staleness that is entirely out of place here beacause of it's familiarity. It's the stale of people, of sweat and toe jam and food crumbs and all of the concominant bacteria associated there with. It's faint, but it really shouldn't be here, you think. The other side of the door is revealed to be a dormitory of sorts. Individual rooms, eight in all, more like monastic cells than anything else. The smell gets a stronger as you step in the room, and for the first time you wonder if there are mops in space.",
         "actionOption": [
           {
             "option": "Search Rooms",
-            "text": "XXX",
-            "log": "XXX",
+            "text": "You cross the threshold and immediately discover the reason for the door's reluctance. A screwdriver was used as a shim to try and keep the door shut. 'Well, why not a space handyman.' you say as you pocket the screw driver. The other some unmade beds you find noting of interest untill you make you way to the last room, where someone has drawn out a series of intricate geometric patterns on the walls. You can't tell if they are the result of a psychotic break, or just the answer to a lack of pictures or windows. Though you're unaccountably unsettled by the designs, you chalk their existance up to the lack of windows. 'And as a space janitor, I don't do windows.'",
+            "log": "found a screwdriver",
             "change": "XXX"
           }, {
-        "change" : "XXX",
-        "log" : "XXX",
         "option" : "XXX",
-        "text" : "XXX"
+        "text" : "XXX",
+        "log" : "XXX",
+        "change" : "XXX",
       }, {
-        "change" : "XXX",
-        "log" : "XXX",
         "option" : "XXX",
-        "text" : "XXX"
+        "text" : "XXX",
+        "log" : "XXX",
+        "change" : "XXX",
       } ],
       "moveOption" : [ {
-        "change" : "XXX",
-        "dest" : "010",
-        "log" : "XXX",
         "option" : "XXX",
-        "text" : "XXX"
+        "text" : "XXX",
+        "log" : "XXX",
+        "dest" : "010",
+        "change" : "XXX",
       } ],
-      "text" : "As the door opens you get a whiff of a sort of staleness that is entirely out of place here beacause of it's familiarity. It's the stale of people, of sweat and toe jam and food crumbs and all of the concominant bacteria associated there with. It's faint, but it really shouldn't be here, you think. The other side of the door is revealed to be a dormitory of sorts. Individual rooms, eight in all, more like monastic cells than anything else. The smell gets a stronger as you step in the room, and for the first time you wonder if there are mops in space"
+      "text" : "As the door opens you get a whiff of a sort of staleness that is entirely out of place here beacause of it's familiarity. It's the stale of people, of sweat and toe jam and food crumbs and all of the concominant bacteria associated there with. It's faint, but it really shouldn't be here, you think. The other side of the door is revealed to be a dormitory of sorts. Individual rooms, eight in all, more like monastic cells than anything else. The smell gets a stronger as you step in the room, and again you wonder if there are mops in space"
     }, {
       "actionOption" : [ {
+        "option" : "XXX",
+        "text" : "XXX",
         "change" : "XXX",
         "log" : "XXX",
-        "option" : "XXX",
-        "text" : "XXX"
       }, {
+        "option" : "XXX",
+        "text" : "XXX",
         "change" : "XXX",
         "log" : "XXX",
-        "option" : "XXX",
-        "text" : "XXX"
       } ],
       "moveOption" : [ {
+        "option" : "XXX",
+        "text" : "XXX",
         "change" : "XXX",
         "dest" : "010",
-        "log" : "XXX",
-        "option" : "XXX",
-        "text" : "XXX"
+        "log" : "XXX"
       } ],
       "text" : "XXX"
     }, {
       "actionOption" : [ {
-        "change" : "XXX",
-        "log" : "XXX",
         "option" : "XXX",
-        "text" : "XXX"
+        "text" : "XXX",
+        "log" : "XXX",
+        "change" : "XXX",
       }, {
         "change" : "XXX",
         "log" : "XXX",
