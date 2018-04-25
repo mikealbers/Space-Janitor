@@ -2,6 +2,8 @@
 
 #### Space Janitor is a multiplayer text adventure game set on a space station. 4/12/18
 
+https://space-janitor.firebaseapp.com/
+
 #### By Ian Goodrich, Mike Albers, Sara Hamilton, and Hamza Naeem
 
 ## Current Functionality
