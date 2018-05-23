@@ -4,6 +4,8 @@
 
 https://space-janitor.firebaseapp.com/
 
+<kbd><img src="src/assets/imgs/space-janitor1.png" style="max-width: 500px;"></kbd>
+
 #### By Ian Goodrich, Mike Albers, Sara Hamilton, and Hamza Naeem
 
 ## Current Functionality
